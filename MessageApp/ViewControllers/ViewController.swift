@@ -31,6 +31,7 @@ class ViewController: UITabBarController {
     }
     
     private func setupTabs() {
+        print("git push")
         let news = createTab(with: "Popular", image: UIImage(systemName: "newspaper.fill"), vc: HomeViewController())
         let explore = createTab(with: "Search", image: UIImage(systemName: "magnifyingglass"), vc: SecondViewController())
         
